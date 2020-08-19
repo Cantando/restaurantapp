@@ -35,7 +35,7 @@ const Login = (props) => {
                 </Header>
             <LoginForm
                 renderMessage={renderFormMessage}
-                buttonText="Login"
+                buttonText="Login to Bella Italia"
                 onSubmit={onFormSubmit}
             />
         </div>
