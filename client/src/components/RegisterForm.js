@@ -42,7 +42,7 @@ const RegisterForm = (props) => {
                         component={renderInput}
                         label="E-mail address"
                     />
-                    {errorMessage ? <Label className="alertMssg" basic color='red'>{errorMessage}</Label> : ""}
+                    {errorMessage ? <Label classNameName="alertMssg" basic color='red'>{errorMessage}</Label> : ""}
                     <Field
                         name="password"
                         component={renderInput}
