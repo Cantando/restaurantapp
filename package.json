@@ -7,15 +7,16 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
+    "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaab30/react-jwt-boiler-plate.git"
+    "url": "git+https://github.com/restaurantapp"
   },
-  "author": "Jorge Alvarez",
+  "author": "Myrna Cantando",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jaab30/react-jwt-boiler-plate/issues"

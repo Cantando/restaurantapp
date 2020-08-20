@@ -1,5 +1,5 @@
-
-import React from 'react';
+import React from "react";
+//import Footer from "../../components/Footer";
 import { Header } from 'semantic-ui-react';
 import RegisterForm from "../../components/RegisterForm";
 import { Link } from "react-router-dom";

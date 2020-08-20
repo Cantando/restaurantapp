@@ -25,10 +25,8 @@ export const NavBar = () => {
         } else {
             return (
                 <>
-                     <Link to="/menu" className="item">Menu</Link>
-
-                    <Link to="/login" className="item">Login</Link>
-                    <Link to="/register" className="item">Register</Link>
+                    {/* <Link to="/login" className="item">Login</Link> */}
+                    <Link to="/register" className="item">Register</Link>      
                 </>
             )
         }
