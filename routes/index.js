@@ -1,6 +1,7 @@
 const router = require("express").Router();
 const authRoutes = require("./auth");
 const path = require("path");
+// const reservationRoutes = require("./reservationRoutes");
 
 // Routes for authentication
 router.use("/auth", authRoutes);

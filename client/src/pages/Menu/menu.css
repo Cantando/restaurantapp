@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css/family=Poppins");
-/* menu
+menu
 {
 margin: 0;
 padding: 0;
@@ -7,17 +7,17 @@ display: flex;
 justify-content: center;
 align-items: center; */
 
-/* height:100vh;
+height:100vh;
 font-family: "Poppins",sans-serif;
 
-} */
+}
 .menu-food{
     width: 300px;
     margin: 0 auto;
 }
 .menu
 {
-    
+
     margin: 0 auto;
 }
 h2{
@@ -40,10 +40,10 @@ list-style: none;
 padding: 5px 0;
 font-size: 16px;
 }
-/* ul li input[type="checkbox"] */
-/* { */
- /* display:none; */
-/* } */
+ul li input[type="checkbox"]
+{
+ display:none;
+}
 ul li span.list
 {
     position: relative;

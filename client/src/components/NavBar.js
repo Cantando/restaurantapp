@@ -42,7 +42,9 @@ export const NavBar = () => {
                 {showLinks()}
             </div>
         </div>
+      
     )
+
 }
 
 export default NavBar;

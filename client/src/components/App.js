@@ -15,8 +15,7 @@ import NoMatch from "../pages/NoMatch";
 import Contact from '../pages/Contact';
 import Catering from "../pages/Catering";
 import Orderonline from "../pages/Orderonline";
-// import Checkout from "../pages/Checkout";
-// import React, { useState } from "react";
+import Checkout from "../pages/Checkout";
 
 export const App = () => {
 
@@ -45,52 +44,15 @@ export const App = () => {
                 <Route path="/reservation" exact component={Reservation} />
                 <Route path="/catering" exact component={Catering} />
                 <Route path="/orderonline" exact component={Orderonline} />
-                {/* <Route path="/checkout" exact component={checkout} /> */}
+                <Route path="/checkout" exact component={Checkout} />
                 <PrivateRoute path="/dashboard" component={UserDashboard} />
                 <PrivateRoute path="/pageone" component={PageOne} />
                 <Route component={NoMatch} />
             </Switch>
         </Router>
+        
     )
 }
-// function App() {
-//     const [loading, setLoading] = useState(false)
-//     const [image, setImage] = useState("")
-//     cost[uploadImage] = async e => {
-//         cost[files] = e.target.files
-//         const data = new FormData()
-//         data.append("file", files[0])
-//         data.append("upload_preset", "Italian Food Images")
-//         setLoading(true)
-//         const res = await fetch("https://api.cloudinary.com/v1_1/cantando/image/upload", { method: "post", body: data })
-//         const file = await res.json()
-
-//         console.log(file);
-//         setImage(file.secure_url)
-//         setLoading(false)
-
-//         return (
-
-//             <div className="App">
-//                 <input type="file" name ="file" placeholder="Upload Image"
-//                 onChange={uploadImage}/>
-
-//                 {
-//                 loading?(
-//                     <h3>Loading...</h3>
-//                 ):(
-//                         <img src={image} style={{width:"300px"}}/>
-//                     )
-//                 }
-
-//             </div>
-
-
-
-//         )
-//     }
-
-// }
 
 export default App;
 

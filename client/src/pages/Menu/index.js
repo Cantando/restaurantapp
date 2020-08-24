@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Header, Message } from "semantic-ui-react";
-import "./style.css"
+
 
 export const Menu = () => {
     return (

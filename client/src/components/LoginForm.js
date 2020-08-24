@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Button, Form, Message, Segment, Label } from 'semantic-ui-react';
 import { Field, reduxForm } from "redux-form";
 import { clearErrors } from "../actions/authActions";
-import App from "./App";
+
 
 const LoginForm = (props) => {
 
