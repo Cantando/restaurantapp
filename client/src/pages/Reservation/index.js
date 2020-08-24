@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import Footer from "../../components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -180,6 +181,7 @@ function Reservation() {  //this is like a class in Java or C#, just using the w
 
 
 }
+
 
 
 export default Reservation;
