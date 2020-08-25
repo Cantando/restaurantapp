@@ -33,6 +33,8 @@
 .res-title{
   color:crimson;
   text-align: center;
+  font-family: cursive;
+  font-size:54px;
   }  
   
   
@@ -101,4 +103,5 @@ address{
 }
 .page-footer-copyright{
   color: crimson;
+  font-size: medium;
 }
