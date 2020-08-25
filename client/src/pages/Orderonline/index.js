@@ -31,7 +31,7 @@ function OrderOnline() {
 
                 </Col>
                 <Col md={3}>
-                    <a href="https://www.grubhub.com/"><img src="https://images.angelpub.com/2014/14/23944/grubhub-logo.jpg"></img></a>
+                    <a href="https://www.grubhub.com/"><img src="https://res.cloudinary.com/cantando/image/upload/c_scale,h_220,w_220/v1598333053/grubhub-app-logo_lh5tl5.png"></img></a>
                     </Col>
 </Row>
 
