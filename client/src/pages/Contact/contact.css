@@ -1,5 +1,5 @@
 .contact {
-    background-color: var(--white);
+    background: rgba(245, 245, 245, 0.553);
     width: 100%;
     max-width: 50em;
     margin: 0 auto;
@@ -11,7 +11,7 @@
 
 
 }
-.contact h1{
+.contact-h1{
   color:black;
   font-style: normal;
   font-weight: bold;
@@ -20,3 +20,10 @@
 }
 
 
+.contact-page{
+  background-image: url("https://www.fodors.com/wp-content/uploads/2019/03/01_20GorgeousSidetownsinItaly__Positano_shutterstock_702788542.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; 
+}

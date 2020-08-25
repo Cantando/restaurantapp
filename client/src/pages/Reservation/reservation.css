@@ -9,6 +9,11 @@
 .reservation{
   height: 300px;
   height: 100px;
+  background-image: url("https://res.cloudinary.com/cantando/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1598207572/background_iyweap.jpg");
+  background-size:cover;
+  text-align: left;
+  color: black;
+
 }
 .reservations-description {
     text-align: center;

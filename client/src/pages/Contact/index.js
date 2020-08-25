@@ -6,9 +6,10 @@ import './contact.css'
 function Contact() {
 
     return (
-
-        <div className="contact h1">
-            <h1>Contact</h1>
+    <div className="contact-page">
+ 
+        <div className="contact">
+            <h1 className="contact-h1">Contact</h1>
             <footer className="page-footer">
             <div className="container">
 
@@ -26,10 +27,7 @@ function Contact() {
             </div>
             </footer>
 
-
-
-
-            <div className="col-md-3 h-100 border-left-custom" >
+            <div >
                 <h5 className="page-footer-title mt-3 mt-md-0">NEWSLETTER</h5>
             </div>
             <p>
@@ -48,6 +46,7 @@ function Contact() {
             <Footer />
 
         </div>
+    </div>
     )
 }
 

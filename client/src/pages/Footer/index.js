@@ -15,7 +15,7 @@ function Footer() {
             Bella Italia <br/>
                 1600 Broad Street<br/>
               Philadelphia,PA 19148<br/>
-                <abbr title="Phone">P:</abbr> (215) 366-8820<br/>
+            <abbr title="Phone">P:</abbr> (215) 366-8820<br/>
             <abbr title="Email">E:</abbr> info@bellaitalia.com
             </address>
             © 2020 Bella Italia &amp; Restaurant.
