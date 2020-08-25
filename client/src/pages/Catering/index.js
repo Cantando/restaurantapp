@@ -12,7 +12,7 @@ function Catering() {
     return (
         <Container>
 
-            <p>ALL PACKAGES CAN BE CUSTOMIZED</p>
+            <h1 className="cat-title">ALL PACKAGES CAN BE CUSTOMIZED</h1>
             <Row>
                 <Col md={6}>
 

@@ -79,7 +79,10 @@ const renderInput = ({ input, label }) => {
                 <input {...input} autoComplete="off" placeholder={label} type={`${input.name !== "password" ? "text" : "password"}`} />
                 <i aria-hidden="true" className={selectIcon()}></i>
             </div>
+        
+        
         </div>
+
 
     )
 }
