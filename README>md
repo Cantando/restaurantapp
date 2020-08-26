@@ -1,0 +1,19 @@
+# TITLE
+Resto-App
+
+
+# ONLINE EXAMPLE
+https://github.com/Cantando/restaurantapp
+
+# DESCRIPTIPON
+A restaurant app that allows the owner of the app to controll menu and user preference. Also making the Resaturant very marketable with user components and interaction.
+
+
+# TECHNOLOGY
+React, Node.js, Express, MongoDB, Javascript (ES6),Redux,JSON web, Tokens, Rest API, Semantic UI. Reactstrap, MERN
+
+# LICENSE
+ISC
+
+# AUTHOR
+Myrna Cantando
